@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+    color: blue;
+    margin-bottom: 40px;
+}
+h2{
+    display: inline-block;
+    border: 4px solid;
+    margin-inline-end: 100px;
+    margin-inline-start: 100px;
+    margin-bottom: 30px;
+    padding: 30px;
+    width: 150px;
+    text-align: center;
+}
+#none{
+    border-style: none;
+}
+#dotted{
+    border-style:dotted;
+}
+#dashed{
+    border-style:dashed;
+}
+#solid{
+    border-style:solid;
+}
+#double{
+    border-style:double;
+}
+#groove{
+    border-style:groove;
+}
+#ridge{
+    border-style:ridge;
+}
+#inset{
+    border-style:inset;
+}
+#outset{
+    border-style:outset;
+}
