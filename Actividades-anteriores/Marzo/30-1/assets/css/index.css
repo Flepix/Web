@@ -53,6 +53,7 @@ body>article{
 body>article>h1{
     display: inline;
     position: absolute;
+    min-width: max-content;
 }
 body>article>p{
     position: absolute;
